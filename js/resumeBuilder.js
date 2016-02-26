@@ -209,3 +209,16 @@ education.display = function() {
 education.display();
 
 $("#mapDiv").append(googleMap);
+
+console.log("google map = " + googleMap);
+console.log("bio locations: "+ bio.contacts.location);
+console.log("education locations: "+ education.schools.location);
+
+for (var job in work.jobs) {
+        if (work.jobs.length > 0) {
+            console.log("work locations: "+ work.jobs[job].location);
+        }
+}
+education.schools.forEach(function(school){
+     console.log("school locations in builder: "+ school.location);
+    });
