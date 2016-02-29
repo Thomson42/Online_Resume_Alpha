@@ -4,12 +4,12 @@ var bio;
 bio = {
     "name": "Christopher Thomson",
     "role": "Web Development and Political Assistance",
-    "contacts": [{
+    "contacts": {
         "Email": "Christopher.thomson42@gmail.com",
         "phone": "503-956-4825",
         "github": "Thomson42",
         "location": "Portland, Oregon"
-    }],
+    },
     "welcomeMessage": "Hello Everyone! Glad to see you want to know more about me.",
     "skills": ["custum web desine", "political analysis", "political assistance", "World builder"],
     "biopic": "images/sweater.jpg"
